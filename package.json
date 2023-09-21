@@ -8,8 +8,8 @@
   },
   "scripts": {
     "kickstart": "cd frontend && npm i && npm run build && cd .. && npm i && npm run migrate && npm run seed && npm run dev",
-    "start": "node src/index.js",
-    "dev": "nodemon ./src/index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "console": "node -r ./src/db/models/console.js",
     "connect": "psql -U postgres -d auth_example",
     "migrate": "knex migrate:latest",
