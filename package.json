@@ -6,6 +6,7 @@
   "engines": {
     "node": "18.x"
   },
+  "type": "commonjs",
   "scripts": {
     "kickstart": "cd frontend && npm i && npm run build && cd .. && npm i && npm run migrate && npm run seed && npm run dev",
     "start": "node index.js",
