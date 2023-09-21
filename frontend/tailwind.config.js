@@ -89,5 +89,5 @@ module.exports = withMT({
       ],
     },
   },
-  plugins: [require("tailwindcss"), require("daisyui")],
+  plugins: [require("tailwindcss")],
 });
